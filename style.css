@@ -87,11 +87,12 @@ footer {    position: relative;
     width: 100vw;
     /* height: 100vh; */
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: center;
     border-radius: 0;}
 
 #main-title {font-size: 4rem;}
-#main-subtitle {font-size:1rem; letter-spacing:1px;}
+#main-subtitle {font-size: 0.9rem;
+    letter-spacing: 1px;}
 #main-socials {width: 100vw;}
 .kao-menu {width:100vw;}
 .kao-menu h3 {font-size:2rem;} 
