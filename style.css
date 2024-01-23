@@ -1,0 +1,101 @@
+body {margin: 0; padding: 0; display: flex;
+    flex-direction: column;}
+#main-title {text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: fantasy;
+    font-size: 140px;
+    color: #e68759;
+	font-weight: 400;}
+
+#main-container {display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#main-subtitle {    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-weight: 100;
+    color: #e68759;
+    /* text-shadow: 1px 1px 2px black; */}
+
+#main-content {max-width: 1000px; margin:auto;flex-grow: 1;}
+
+#hero-image-container {background-image: url(CartoonCovers/HD-CC3.png);
+    width: 820px;
+    height: 312px;
+    background-position: center -105px;
+    margin: auto;
+    background-size: cover;
+    border-radius: 20px; }
+
+#main-socials {    width: 820px;
+    margin: 20px auto;
+text-align: center;}	
+#main-socials img {max-width: 64px;border-radius:10px;transition: box-shadow 0.3s ease-in-out;margin: auto 20px;}
+#main-socials img:hover {box-shadow: 0px 0px 5px 10px #fbc0a4;}
+
+.kao-menu {width: 820px;
+    margin: 20px 0 auto;
+    overflow: hidden;
+    /* height: 48px; */
+	margin: auto;
+    
+	transition: height 0.2s ease-in-out;}
+.kao-menu-show {height: auto;}
+.kao-menu h3 {    text-align: center;
+    font-family: fantasy;
+    /* font-weight: 200; */
+    font-size: 40px;
+    margin: 0;
+    font-weight: 100;
+    color: #e68759;}
+	
+/*.kao-menu {height: auto;} */
+
+.kao-menu h3::before {content: "+";
+    margin: 0;
+    display: inline-block;
+    /* line-height: 24px; */
+    position: relative;
+    left: -10px;
+    top: -3px;}
+.kao-menu p {font-size: 20px;
+    padding: 0 40px;
+    text-align: justify;
+    font-family: arial;}
+
+footer {    position: relative;
+    height: 50px;
+    line-height: 23px;
+    text-align: center;
+    bottom: 0;
+    width: 100vw;
+    background-color: #e68759;
+    font-family: monospace;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;}	
+	
+@media only screen and (max-width: 920px) {
+	#hero-image-container {   
+    width: 100vw;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-radius: 0;}
+
+#main-title {font-size: 4rem;}
+#main-subtitle {font-size:1rem; letter-spacing:1px;}
+#main-socials {width: 100vw;}
+.kao-menu {width:100vw;}
+.kao-menu h3 {font-size:2rem;} 
+footer {font-size:11px;line-height: normal;}
+ }
+ 
+ 
