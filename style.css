@@ -36,8 +36,8 @@ body {margin: 0; padding: 0; display: flex;
 #main-socials {    width: 820px;
     margin: 20px auto;
 text-align: center;}	
-#main-socials img {max-width: 64px;border-radius:10px;transition: box-shadow 0.3s ease-in-out;margin: auto 20px;}
-#main-socials img:hover {box-shadow: 0px 0px 5px 10px #fbc0a4;}
+#main-socials img {max-width: 64px;border-radius:10px;transition: filter 0.1s ease-in-out;margin: auto 20px;}
+#main-socials img:hover {filter: drop-shadow(3px 2px 4px grey);}
 
 .kao-menu {width: 820px;
     margin: 20px 0 auto;
@@ -53,8 +53,9 @@ text-align: center;}
     font-size: 40px;
     margin: 0;
     font-weight: 100;
-    color: #e68759;}
-	
+    color: #e68759;
+  transition: filter 0.1s ease-in-out;}
+.kao-menu h3:hover {filter: drop-shadow(3px 2px 4px grey);}	
 /*.kao-menu {height: auto;} */
 
 .kao-menu h3::before {content: "+";
