@@ -28,9 +28,11 @@ body {margin: 0; padding: 0; display: flex;
 #hero-image-container {background-image: url(CartoonCovers/HD-CC3.png);
     width: 820px;
     height: 312px;
-    background-position: center -105px;
+    background-position: center;
     margin: auto;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+background-color: #0e0d09;
     border-radius: 20px; }
 
 #main-socials {    width: 820px;
