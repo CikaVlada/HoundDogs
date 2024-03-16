@@ -25,7 +25,7 @@ body {margin: 0; padding: 0; display: flex;
 
 #main-content {max-width: 1000px; margin:auto;flex-grow: 1;}
 
-#hero-image-container {background-image: url(CartoonCovers/HD-CC3.png);
+#hero-image-container {background-image: url(CartoonCovers/HoundDogs-Goodfellas.png);
     width: 820px;
     height: 312px;
     background-position: center;
