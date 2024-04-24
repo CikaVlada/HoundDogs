@@ -37,7 +37,10 @@ background-color: #0e0d09;
 
 #main-socials {    width: 820px;
     margin: 20px auto;
-text-align: center;}	
+	       display: flex;
+    align-items: center;
+    justify-content: center;
+	      }	
 #main-socials img {max-width: 64px;border-radius:10px;transition: filter 0.1s ease-in-out;margin: auto 20px;}
 #main-socials img:hover {filter: drop-shadow(3px 2px 4px grey);}
 
