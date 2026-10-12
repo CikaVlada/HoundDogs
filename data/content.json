@@ -1,0 +1,54 @@
+{
+  "social": {
+    "instagram": "https://www.instagram.com/hound.dogs.srbija/",
+    "facebook": "https://www.facebook.com/hounddogsrs/",
+    "youtube": "https://www.youtube.com/@HoundDogsSrbija"
+  },
+  "contact": {
+    "phone": "+381695481181",
+    "email": "hound.dogs.srbija@gmail.com"
+  },
+  "members": [
+    {
+      "name": "Valdez",
+      "role": {
+        "sr": "Gitara i vokal",
+        "en": "Guitar and vocals"
+      }
+    },
+    {
+      "name": "Marko",
+      "role": {
+        "sr": "Klavijature i bas klavijatura",
+        "en": "Keyboards and keyboard bass"
+      }
+    },
+    {
+      "name": "Vele",
+      "role": {
+        "sr": "Bubnjevi",
+        "en": "Drums"
+      }
+    }
+  ],
+  "bio": {
+    "sr": "Hound Dogs je tročlani bend nastao iz želje da na klupsku scenu donese drugačiji repertoar. Umesto da se oslanjamo na iste pesme koje se često čuju u klubovima, sviramo bluz, rok i rokabili, od muzike četrdesetih godina prošlog veka do današnjih dana. Valdez je na gitari i vokalu, Marko na klavijaturama i bas klavijaturi, a Vele na bubnjevima.",
+    "en": "Hound Dogs is a three-piece band formed to bring a different repertoire to the club scene. Rather than relying on the familiar set of songs heard in many venues, we play blues, rock and rockabilly, drawing on music from the 1940s through today. Valdez handles guitar and vocals, Marko plays keyboards and keyboard bass, and Vele is on drums."
+  },
+  "repertoire": {
+    "sr": "Od Muddy Watersa, B. B. Kinga, Chuck Berryja i Elvisa, preko Creama, The Doorsa, Joea Cockera, Dire Straitsa, Stevieja Raya Vaughana i ZZ Topa, do hitova osamdesetih i novijih rok pesama.",
+    "en": "From Muddy Waters, B. B. King, Chuck Berry and Elvis to Cream, The Doors, Joe Cocker, Dire Straits, Stevie Ray Vaughan and ZZ Top, alongside 1980s hits and more recent rock songs."
+  },
+  "technical": {
+    "sr": [
+      "Manji klubovi: ozvučenje (PA) i mikseta sa najmanje 5 dostupnih kanala.",
+      "Veći klubovi i festivali: ozvučenje (PA) i mikseta sa najmanje 12 dostupnih kanala.",
+      "Međunarodni nastupi: Marshall DSL40 ili ekvivalent, ozvučen mikrofonom SM57; bubnjevi (najmanje bas bubanj, tom i podni tom) sa stalcima za činele; 2 DI kanala za klavijature."
+    ],
+    "en": [
+      "Smaller clubs: PA system and mixing console with at least 5 available channels.",
+      "Larger clubs and festivals: PA system and mixing console with at least 12 available channels.",
+      "International shows: Marshall DSL40 or equivalent, miked with an SM57; drum shells (at least kick, rack tom and floor tom) with cymbal stands; 2 DI channels for keyboards."
+    ]
+  }
+}
