@@ -21,7 +21,7 @@ Edit `data/videos.json` and paste YouTube's 11-character ID from each URL in `yo
 Edit `data/content.json`. The `sr` and `en` entries hold both languages. Both homepage and `/booking/` read this same file.
 
 ## Pending
-- Dublin Pub show city, start time and poster (2026-10-17).
+- Dublin Pub show city and start time (2026-10-17). Poster is already included.
 - Downloadable press photos and final stage plot/rider PDF.
 - Verify video titles and change generic titles in videos.json.
 - Exact Artick font: not included; supply licensed webfont if you want it. Current logo uses Bebas Neue via Google Fonts and the tagline uses a serif fallback.
@@ -31,3 +31,9 @@ Edit `data/content.json`. The `sr` and `en` entries hold both languages. Both ho
 No tracking scripts or cookies are added by the site. The language preference uses localStorage. Google Fonts and YouTube thumbnail images are third-party resources; YouTube embeds load on click. You may self-host a properly licensed font for greater privacy/performance.
 
 **Important:** The HTML contains an embedded fallback snapshot of the JSON for offline/file previews. On a hosted website, JSON files are fetched fresh and remain the source of truth. For an updated offline preview after editing JSON, run the local server instead or regenerate the embedded snapshot.
+
+## Contact privacy
+Public booking contact is email and Instagram only. Phone number has been removed from website content and embedded fallback data. Note: previous Git commits may still contain it in repository history.
+
+## Poster preview
+The included HTML fallback has been synchronized with `data/shows.json`, including the Dublin Pub poster. For future updates, use `python3 -m http.server 8000` to preview the current JSON, because opening the HTML directly uses the embedded snapshot.
